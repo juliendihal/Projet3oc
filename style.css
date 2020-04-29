@@ -1,0 +1,2260 @@
+
+body
+{
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+@font-face
+{
+	font-family:'croissant one';
+	src:url(fonts/croissantone-regular.ttf);
+}
+
+@font-face
+{
+	font-family:'typo comics';
+	src:url(fonts/typo_comics_light_demo.otf);
+}
+
+@font-face
+{
+	font-family:'playtime';
+	src:url(fonts/playtime.ttf);
+}
+
+@font-face
+{
+	font-family:'river avenue';
+	src:url(fonts/riverave.ttf);
+}
+
+@font-face
+{
+	font-family:'dai banna sil';
+	src:url(fonts/dbsillo.ttf;
+)}
+
+@font-face
+{
+	font-family:'Dancing Script';
+src:url(fonts/dancing script.ttf)}
+
+@font-face
+{
+	font-family:'kaushan script';
+src:url(fonts/kaushanscript-regular.ttf)}
+
+@font-face
+{
+	font-family:'peacerful day';
+src:url(fonts/peacefulday.ttf)}
+
+@font-face
+{
+	font-family:'will grace';
+	src:url('willg___.ttf');
+}
+
+@font-face
+{
+	font-family:'street corner';
+src:url('fonts/street corner semibold.ttf')}
+
+@font-face
+{
+	font-family:'bilbo';
+src:url('fonts/Bilbo-Regular.otf')}
+
+/*-----------------------------header--------------------------------*/
+header
+{
+	background: #579c87;
+}
+
+img
+{
+	width: 480px;
+	display: block;
+	margin: auto;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+/*-----------------------------header--------------------------------*/
+#contenu
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#contenu a
+{
+	width: 45%;
+    overflow: hidden;
+}
+
+.menu
+{
+	background: #fff5fe;
+	width: 100%;
+	height: 737px;
+	text-align: center;
+	margin-top: 100px;
+	box-shadow: 0 0 1em #f1f1f1;
+}
+
+.menu p
+{
+	margin-bottom: 65px;
+}
+
+.menu:hover .lanote
+{
+	padding-top: 0px;
+}
+
+.menu:hover .menunote
+{
+	padding-top: 0px;
+}
+
+.menu:hover p
+{
+	transform: scale(1.5);
+	padding-top: 250px;
+}
+
+.menu:hover h2
+{
+	transform: scale(1.5);
+	padding-top: 40px;
+}
+
+.menu:hover i
+{
+	transform: scale(1.5);
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.ml
+{
+	width: 95%;
+	margin: auto;
+}
+
+.ml-titre
+{
+	margin-top:50px;
+	margin-bottom: 50px;
+}
+
+/*-------------------------------menu1-------------------------------*/
+.menu1
+{
+	background:#fde1dd;
+	color: #4e252a;
+}
+
+.menu1 p
+{
+	margin-top: 0;
+	font-family: 'croissant one';
+	font-size:25px;
+	margin-bottom: 65px;
+}
+
+i
+{
+	margin-top: 260px;
+	background: linear-gradient(135deg ,#f15861,#f78f6a);
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+	font-size:50px;
+	padding-bottom: 20px;
+}
+
+.menu1 h2
+{
+	font-size: 60px;
+	font-family: 'street corner';
+}
+
+/*-------------------------------menu1-------------------------------*/
+/*-------------------------------menu2-------------------------------*/
+.menu2
+{
+	background: #fff5fe;
+}
+
+.menu2 p
+{
+	background: linear-gradient(135deg,#d8852e,#905bfd);
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+	font-family: 'croissant one';
+	font-size: 33px;
+	padding-top: 306px;
+}
+
+.menu2 h2
+{
+	color:#c77412;
+	font-size: 60px;
+	font-family: 'will grace';
+}
+
+/*-------------------------------menu2-------------------------------*/
+/*-------------------------------menu3-------------------------------*/
+.menu3 h2
+{
+	color: #0887fb;
+	font-family: 'peacerful day';
+	font-size: 60px;
+}
+
+.menu3 p
+{
+	background: linear-gradient(135deg,#0431df,#0887fb);
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+	font-family: 'dancing script';
+	font-size: 53px;
+	padding-top: 306px;
+}
+
+.MENU3
+{
+	background: #f9f9f9;
+}
+
+/*-------------------------------menu3-------------------------------*/
+/*-------------------------------menu4-------------------------------*/
+.menu4
+{
+	background: #fdfffd;
+}
+
+.menu4 p
+{
+	background: linear-gradient(135deg,#3d9339,#bfff7e);
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+	font-family: 'kaushan script';
+	font-size: 48px;
+	padding-top: 306px;
+}
+
+.menu4 h2
+{
+	color: #72bf56;
+	font-family: 'peacerful day';
+	font-size:60px;
+}
+
+/*-------------------------------menu4-------------------------------*/
+/*-------------------------------bouton------------------------------*/
+.btn
+{
+	background:#579c87;
+	width: 32%;
+	font-size: 60px;
+	border-radius: 30px;
+	color: #fdcb46;
+	display:block;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 200px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 100px;
+	padding-right:100px;
+	text-align: center;
+}
+
+.animation .point1
+{
+	vertical-align: bottom;
+	-webkit-animation: points1 1.5s 300ms infinite ease-in-out;
+	animation: points1 1.5s 300ms infinite ease-in-out;
+}
+
+.animation .point2
+{
+	vertical-align: bottom;
+	-webkit-animation: points2 1.5s 300ms infinite ease-in-out;
+	animation: points2 1.5s 300ms infinite ease-in-out;
+}
+
+.animation .point3
+{
+	vertical-align: bottom;
+	-webkit-animation: points3 1.5s 300ms infinite ease-in-out;
+	animation: points3 1.5s 300ms infinite ease-in-out;
+}
+
+@keyframes points1
+{
+	0%
+	{
+		opacity: 1;
+	}
+
+	33%
+	{
+		opacity: 0;
+	}
+
+	100%
+	{
+		opacity: 0;
+	}
+}
+
+@keyframes points2
+{
+	0%
+	{
+		opacity: 0;
+	}
+
+	50%
+	{
+		opacity: 1;
+	}
+
+	100%
+	{
+		opacity: 0;
+	}
+}
+
+@keyframes points3
+{
+	0%
+	{
+		opacity: 0;
+	}
+
+	33%
+	{
+		opacity: 0;
+	}
+
+	100%
+	{
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes points1
+{
+	0%
+	{
+		opacity: 1;
+	}
+
+	33%
+	{
+		opacity: 0;
+	}
+
+	100%
+	{
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes points2
+{
+	0%
+	{
+		opacity: 0;
+	}
+
+	33%
+	{
+		opacity: 1;
+	}
+
+	100%
+	{
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes points3
+{
+	0%
+	{
+		opacity: 0;
+	}
+
+	33%
+	{
+		opacity: 0;
+	}
+
+	100%
+	{
+		opacity: 1;
+	}
+}
+
+/*-------------------------------bouton------------------------------*/
+/*-------------------------------footer------------------------------*/
+#footer
+{
+	display: flex;
+	background:#579c87;
+	height: 136px;
+	position: fixed;
+	bottom: 0;
+width: 100%}
+
+.contact
+{
+	margin-right: 40px;
+	margin:auto;
+}
+
+.contact:hover
+{
+	animation: wigle 0.2s;
+}
+
+@keyframes wigle
+{
+	0%
+	{
+		transform: translate(1px,1px)rotate(0deg);
+	}
+
+	10%
+	{
+		transform: translate(-1px,-2px)rotate(-1deg);
+	}
+
+	20%
+	{
+		transform: translate(-3px,0px)rotate(1deg);
+	}
+
+	30%
+	{
+		transform: translate(3px,2px)rotate(0deg);
+	}
+
+	40%
+	{
+		transform: translate(1px,-1px)rotate(-1deg);
+	}
+
+	50%
+	{
+		transform: translate(-1px,2px)rotate(1deg);
+	}
+
+	60%
+	{
+		transform: translate(-3px,1px)rotate(0deg);
+	}
+
+	70%
+	{
+		transform: translate(3px,1px)rotate(-1deg);
+	}
+
+	80%
+	{
+		transform: translate(-1px,-1px)rotate(1deg);
+	}
+
+	90%
+	{
+		transform: translate(1px,2px)rotate(0deg);
+	}
+
+	100%
+	{
+		transform: translate(1px,-2px)rotate(-1deg);
+	}
+}
+
+.mentions-legales
+{
+	margin-left: 40px;
+	margin: auto;
+	width: 73%;
+}
+
+.mentions-legales:hover
+{
+	animation: wigle 0.2s;
+}
+
+footer a
+{
+	text-decoration:none;
+	color: #fdcb46;
+	font-size: 48px;
+}
+
+/*-------------------------------footer------------------------------*/
+.contain-menu
+{
+	display: flex;
+}
+
+.MENU
+{
+	width: 88%;
+	height: 100%;
+	margin: auto;
+	text-align: center;
+	box-shadow: 0 0 1em #f1f1f1;
+	margin-top: 150px;
+	margin-bottom: 240px;
+}
+
+.intitule
+{
+	width: 90%;
+}
+
+.prix
+{
+	margin-right: 170px;
+}
+
+.padding
+{
+	padding-bottom:200px;
+}
+
+.MENU p
+{
+	text-align: left;
+	margin-left: 170px;
+	font-size: 26px;
+}
+
+.MENU h3
+{
+	font-size:28px;
+	margin-top: 120px;
+	margin-bottom: 65px;
+}
+
+.MENU h2
+{
+	padding-top: 180px;
+	padding-bottom:50px;
+	font-size: 50px;
+	margin: 0;
+}
+
+.trait
+{
+	text-decoration: none;
+	transition: background-size .5s;
+}
+
+.trait:hover
+{
+	background-size: 100% 100%;
+}
+
+.hr1
+{
+	width: 25%;
+	float: left;
+	margin-left: 50px;
+	padding: 0;
+}
+
+.hr2
+{
+	float: right;
+	width: 25%;
+	margin-right: 50px;
+	padding: 0;
+}
+
+/*-------------------------------menu1-------------------------------*/
+.MENU1
+{
+	background:#f7e0dc;
+	color: #4e252a;
+}
+
+.MENU1 i
+{
+	margin-top: 85px;
+	padding-bottom: 10px;
+}
+
+.MENU1 h2
+{
+	padding: 0;
+	font-family: 'croissant one';
+	margin: 0;
+}
+
+.MENU1 h3
+{
+	font-family: 'typo comics';
+	font-weight: 300;
+	margin-bottom: 50px;
+	font-size:35px;
+}
+
+.MENU1 p
+{
+	font-family: 'playtime';
+	font-weight: 300;
+	margin-left: 130px;
+}
+
+.MENU1 .prix
+{
+	margin-right: 130px;
+}
+
+.MENU1 .hr1
+{
+	margin-left: 120px;
+}
+
+.MENU1 .hr2
+{
+	margin-right: 120px;
+}
+
+.MENU1 .prelude
+{
+	margin-top: 85px;
+}
+
+.MENU1 .enchantee
+{
+	font-size:28px;
+	padding-bottom: 200px;
+}
+
+.MENU1 .musique
+{
+	font-size:28px;
+}
+
+.MENU1 .trait
+{
+	background: linear-gradient(to top, rgba(61,19,25,1) 0%, rgba(61,19,25,1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+}
+
+.trait:hover
+{
+	background-size: 100% 100%;
+}
+
+/*-------------------------------menu1-------------------------------*/
+/*-------------------------------menu2-------------------------------*/
+.MENU2 h2
+{
+	background: linear-gradient(135deg,#d8852e,#905bfd);
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+font-family: 'croissant one'}
+
+.entree
+{
+	color:#c67412;
+}
+
+.plat
+{
+	color:#a56799;
+}
+
+.dessert
+{
+	color:#6e4ccc;
+}
+
+.MENU2 h3
+{
+	font-family: 'river avenue';
+}
+
+.MENU2 p
+{
+	font-family: 'dai banna sil';
+}
+
+.MENU2
+{
+	background: #fff5fe;
+}
+
+.trait-entree
+{
+	background: linear-gradient(to top, rgba(198,116,18,1) 0%, rgba(198,116,18,1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+}
+
+.trait-plat
+{
+	background: linear-gradient(to top, rgba(165,103,153,1) 0%, rgba(165,103,153,1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+}
+
+.trait-dessert
+{
+	background: linear-gradient(to top, rgba(110,76,204,1) 0%, rgba(110,76,204,1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+}
+
+/*-------------------------------menu2-------------------------------*/
+/*-------------------------------menu3-------------------------------*/
+.MENU3 h2
+{
+	background: linear-gradient(135deg,#0431df,#0887fb);
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+	font-family: 'Dancing Script';
+}
+
+.MENU3 p
+{
+	font-family: 'bilbo';
+	font-size: 28px;
+}
+
+.MENU3 h3
+{
+	font-family: 'bilbo';
+	font-size: 40px;
+}
+
+.MENU3
+{
+	background: #edefef;
+}
+
+.trait3-1
+{
+	background: linear-gradient(to top, rgba(2,40,221,1) 0%, rgba(2,40,221,1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+}
+
+.trait3-2
+{
+	background: linear-gradient(to top, rgba(6,112,243,1) 0%, rgba(6,112,243,1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+}
+
+.trait3-3
+{
+	background: linear-gradient(to top, rgba(34,157,249,1) 0%, rgba(34,157,249,1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+}
+
+/*-------------------------------menu3-------------------------------*/
+/*-------------------------------menu4-------------------------------*/
+.MENU4 h2
+{
+	background: linear-gradient(135deg,#3d9339,#bfff7e);
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+font-family: 'kaushan script'}
+
+.MENU4 p
+{
+	font-family: 'bilbo';
+	font-size: 28px;
+}
+
+.MENU4 h3
+{
+	font-family: 'bilbo';
+	font-size: 40px;
+}
+
+.MENU4
+{
+	background: #fdfffd;
+}
+
+.trait4
+{
+	background: linear-gradient(to top, rgba(82,164,69,1) 0%, rgba(82,164,69,1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+}
+
+/*-------------------------------menu4-------------------------------*/
+/*-------------------------------media queries-------------------------------*/
+@media all and (min-width:1500px) and (max-width:2561px)
+{
+	img
+	{
+		width: 900px;
+	}
+
+	.menu
+	{
+		height: 1400px;
+	}
+
+	.menu1 i
+	{
+		font-size: 100px;
+		margin-top: 500px;
+	}
+
+	.menu1 p
+	{
+		font-size:50px;
+	}
+
+	.menu1 h2
+	{
+		font-size:70px;
+	}
+
+	.menu2 p
+	{
+		font-size: 60px;
+		padding-top: 600px;
+	}
+
+	.menu2 h2
+	{
+		font-size:90px;
+	}
+
+	.menu3 p
+	{
+		font-size:70px;
+		padding-top: 600px;
+	}
+
+	.menu3 h2
+	{
+	font-size: 90px}
+
+	.menu4 p
+	{
+		font-size:70px;
+		padding-top: 600px;
+	}
+
+	.menu4 h2
+	{
+		font-size:90px;
+	}
+
+	.btn
+	{
+		padding-left: 0px;
+		padding-right: 0px;
+		font-size:80px;
+	}
+
+	.contact
+	{
+		margin: auto;
+	margin-right: 40px;
+    }
+
+	.menu:hover p
+	{
+		transform: scale(1.5);
+		padding-top: 500px;
+	}
+
+	.menu:hover h2
+	{
+		transform: scale(1.5);
+		padding-top: 70px;
+	}
+
+	.MENU p
+	{
+		font-size:60px;
+	}
+
+	.MENU h3
+	{
+		font-size: 75px;
+	}
+
+	.MENU h2
+	{
+		font-size: 120px;
+	}
+
+	footer a
+	{
+		font-size: 70px;
+	}
+
+	i
+	{
+		font-size:100px;
+	}
+
+	.MENU1 .enchantee
+	{
+		font-size:70px;
+	}
+
+	.MENU1 .musique
+	{
+		font-size: 70px;
+	}
+}
+
+/*-------------------------------laptop-------------------------------*/
+@media all and (min-width:1025px) and (max-width:1423px)
+{
+	.menu
+	{
+		width: 85%;
+		height:600px;
+		margin-top: 50px;
+		margin-left:80px;
+		margin-right: 25px;
+	}
+
+	.mentions-legales
+	{
+		width: 45%;
+		margin:auto;
+		margin-left:40px;
+	}
+
+	.contact
+	{
+		margin: auto;
+		margin-right: 40px;
+	}
+
+	.btn
+	{
+		background:#579c87;
+		width: 40%;
+		font-size: 40px;
+		margin-top: 100px;
+		margin-bottom: 200px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 100px;
+		padding-right:100px;
+	}
+
+	.menu h2
+	{
+		font-size: 40px;
+	}
+
+	a
+	{
+	width: 50%}
+
+	.menu1 p
+	{
+		font-size:20px;
+	}
+
+	.menu1 i
+	{
+		margin-top: 190px;
+	}
+
+	.menu2
+	{
+		margin-right: 80px;
+		margin-left: 25px;
+	}
+
+	.menu2 p
+	{
+		font-size:25px;
+		padding-top: 240px;
+	}
+
+	.menu3 p
+	{
+		font-size: 35px;
+		padding-top: 240px;
+	}
+
+	.menu4
+	{
+		margin-left: 25px;
+	}
+
+	.menu4 p
+	{
+		font-size:30px;
+		padding-top: 240px;
+	}
+}
+
+@media all and (min-width:768px) and (max-width:1024px)
+{
+	.menu
+	{
+		width: 80%;
+		height:600px;
+		margin-top: 50px;
+		margin-left:80px;
+		margin-right: 25px;
+	}
+
+	.mentions-legales
+	{
+		width: 45%;
+		margin:auto;
+		margin-left:40px;
+	}
+
+	.contact
+	{
+		margin: auto;
+		margin-right: 40px;
+	}
+
+	.menu:hover p
+	{
+		transform: scale(1.2);
+		padding-top: 200px;
+	}
+
+	.menu:hover h2
+	{
+		transform: scale(1.2);
+		padding-top: 20px;
+	}
+
+	.btn
+	{
+		background:#579c87;
+		width: 39%;
+		font-size: 40px;
+		margin-top: 100px;
+		margin-bottom: 200px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 100px;
+		padding-right:100px;
+	}
+
+	.menu h2
+	{
+		font-size: 40px;
+	}
+
+	a
+	{
+	width: 50%}
+
+	.menu1 p
+	{
+		font-size:20px;
+	}
+
+	.menu1 i
+	{
+		margin-top: 190px;
+	}
+
+	.menu2
+	{
+		margin-right: 80px;
+		margin-left: 25px;
+	}
+
+	.menu2 p
+	{
+		font-size:25px;
+		padding-top: 240px;
+	}
+
+	.menu3 p
+	{
+		font-size: 35px;
+		padding-top: 240px;
+	}
+
+	.menu4
+	{
+		margin-left: 25px;
+	}
+
+	.menu4 p
+	{
+		font-size:30px;
+		padding-top: 240px;
+	}
+
+	.MENU
+	{
+		width: 90%;
+		height: 100%;
+		margin-top: 100px;
+		margin-bottom: 220px;
+		margin-right: 50px;
+		margin-left: 50px;
+	}
+
+	.padding
+	{
+		padding-bottom: 100px;
+	}
+
+	.MENU p
+	{
+		margin-left: 100px;
+		font-size: 25px;
+	}
+
+	.prix
+	{
+		margin-right: 100px;
+	}
+
+	footer a
+	{
+		font-size: 30px;
+	}
+
+	.prix p
+	{
+		width: 10%;
+	margin-left:0}
+
+	.MENU h2
+	{
+		padding-top: 100px;
+		padding-bottom: 25px;
+	font-size:60px}
+
+	.MENU h3
+	{
+		font-size: 30px;
+		margin-top: 60px;
+	}
+
+	.MENU1 h3
+	{
+		font-size: 30px;
+	}
+
+	.MENU1 .hr1
+	{
+		margin-left: 80px;
+		width: 22%;
+	}
+
+	.MENU1 .hr2
+	{
+		margin-right: 80px;
+	width: 22%}
+
+	.MENU1 p
+	{
+		margin-left: 90px;
+	}
+
+	.MENU1 h2
+	{
+		padding-top: 0;
+		padding-bottom: 0;
+		font-size: 40px;
+	}
+
+	.MENU1 .prelude
+	{
+		margin-top: 60px;
+	}
+
+	.MENU2 h2
+	{
+		font-size: 45px;
+	}
+
+	.MENU2 h3
+	{
+		font-size: 23px;
+	}
+
+	.MENU2 .hr1
+	{
+		width: 20%;
+	}
+
+	.MENU2 .hr2
+	{
+		width: 20%;
+	}
+}
+
+/*-------------------------------laptop-------------------------------*/
+/*-------------------------------tablette-------------------------------*/
+@media screen and (min-width:660px)and (max-width:768px)
+{
+	#contenu
+	{
+		display: block;
+	}
+
+	.menu
+	{
+		margin-left: 50px;
+		margin-right: 50px;
+		width:  87%;
+		height: 800px;
+		margin-top: 50px;
+	}
+
+	.btn
+	{
+		font-size:25px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 60px;
+		padding-right: 60px;
+		width: 35%;
+		margin-top: 50px;
+		margin-bottom: 100px;
+	}
+
+	.menu1 i
+	{
+		margin-top: 260px;
+	}
+
+	.menu h2
+	{
+		font-size: 50px;
+	}
+
+	.menu1 p
+	{
+		font-size:30px;
+	}
+
+	.menu2 p
+	{
+		font-size:35px;
+		padding-top: 300px;
+	}
+
+	.menu3 p
+	{
+		font-size: 45px;
+		padding-top: 300px;
+	}
+
+	.menu4 p
+	{
+		font-size:40px;
+		padding-top: 300px;
+	}
+
+	.MENU
+	{
+		width: 92%;
+		height: 100%;
+		margin: auto;
+		margin-top: 50px;
+		margin-bottom: 100px;
+	}
+
+	.padding
+	{
+		padding-bottom: 100px;
+	}
+
+	.MENU p
+	{
+		font-size: 22px;
+		margin-left: 60px;
+	}
+
+	.MENU h2
+	{
+		font-size: 45px;
+		padding-top: 70px;
+	}
+
+	.prix
+	{
+		margin-right: 60px;
+	}
+
+	.hr1
+	{
+		display: none;
+	}
+
+	.hr2
+	{
+		width: 40%;
+		margin: auto;
+		float: none;
+	}
+
+	.MENU h3
+	{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-size: 27px;
+	}
+
+	img
+	{
+		width: 200px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	footer a
+	{
+		font-size:30px;
+	}
+
+	#footer
+	{
+		height: 60px;
+	}
+
+	.mentions-legales
+	{
+		width: 45%;
+		margin:auto;
+		margin-left:20px;
+	}
+
+	.contact
+	{
+		margin: auto;
+		margin-right: 20px;
+	}
+
+	.MENU1 p
+	{
+		margin-left: 70px;
+		font-size: 18px;
+	}
+
+	.MENU1 h2
+	{
+		padding-top: 0;
+		padding-bottom: 0;
+		font-size: 30px;
+	}
+
+	.MENU1 .enchantee
+	{
+		font-size: 20px;
+		padding-bottom: 100px;
+	}
+
+	.MENU1 h3
+	{
+		font-size: 25px;
+	}
+
+	.MENU1 .hr2
+	{
+	margin: auto}
+
+	.MENU1 .prelude
+	{
+		margin-top: 60px;
+	}
+
+	.MENU1 .prix
+	{
+		margin-right: 70px;
+	}
+
+	.MENU2 h2
+	{
+		font-size: 32px;
+	}
+
+	.MENU2 h3
+	{
+		font-size: 22px;
+	}
+
+	.MENU p
+	{
+		font-size:18px;
+	}
+
+	.dessert1 p
+	{
+		margin-right: 70px;
+	}
+}
+
+/*-------------------------------tablette-------------------------------*/
+@media screen and (min-width:425px) and (max-width:660px)
+{
+	#contenu
+	{
+		display: block;
+	}
+
+	.menu
+	{
+		margin: auto;
+		width:  83%;
+		height: 800px;
+		margin-top: 50px;
+	}
+
+	.btn
+	{
+		font-size:25px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 60px;
+		padding-right: 60px;
+		width: 48%;
+		margin-top: 50px;
+		margin-bottom: 100px;
+	}
+
+	.menu h2
+	{
+		font-size: 50px;
+	}
+
+	.menu1 p
+	{
+		font-size:30px;
+	}
+
+	.menu1 i
+	{
+		margin-top: 260px;
+	}
+
+	.menu2 p
+	{
+		font-size:35px;
+		padding-top: 300px;
+	}
+
+	.menu3 p
+	{
+		font-size: 45px;
+		padding-top: 300px;
+	}
+
+	.menu4 p
+	{
+		font-size:40px;
+		padding-top: 300px;
+	}
+
+	.MENU
+	{
+		width: 90%;
+		margin-left: 30px;
+		margin-right: 30px;
+		height: 100%;
+		margin: auto;
+		margin-top: 50px;
+		margin-bottom: 100px;
+	}
+
+	.padding
+	{
+		padding-bottom: 100px;
+	}
+
+	.MENU p
+	{
+		font-size: 20px;
+		margin-left: 60px;
+	}
+
+	.MENU h2
+	{
+		font-size: 40px;
+		padding-top: 70px;
+	}
+
+	.prix
+	{
+		margin-right: 60px;
+	}
+
+	.hr1
+	{
+		display: none;
+	}
+
+	.hr2
+	{
+		width: 45%;
+		margin: auto;
+		float: none;
+	}
+
+	.MENU h3
+	{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-size: 26px;
+	}
+
+	img
+	{
+		width: 200px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	footer a
+	{
+		font-size:25px;
+	}
+
+	#footer
+	{
+		height: 60px;
+	}
+
+	.mentions-legales
+	{
+		width: 45%;
+		margin:auto;
+		margin-left:20px;
+	}
+
+	.contact
+	{
+		margin: auto;
+		margin-right: 20px;
+	}
+
+	.MENU1 p
+	{
+		margin-left: 40px;
+		font-size: 16px;
+	}
+
+	.MENU1 h2
+	{
+		padding-top: 0;
+		padding-bottom: 0;
+		font-size:28px;
+	}
+
+	.MENU1 .hr2
+	{
+	margin: auto}
+
+	.MENU1 .enchantee
+	{
+		font-size: 20px;
+		padding-bottom: 100px;
+		margin-top: -50px;
+	}
+
+	.MENU1 h3
+	{
+		font-size: 24px;
+	}
+
+	.MENU1 .prelude
+	{
+		margin-top: 60px;
+	}
+
+	.MENU1 .prix
+	{
+		margin-right: 40px;
+	}
+
+	.MENU2 h2
+	{
+	font-size: 30px}
+
+	.MENU2 h3
+	{
+	font-size: 20px}
+
+	.MENU2 p
+	{
+		font-size:15px;
+	}
+
+	.dessert p
+	{
+		margin-right: 40px;
+	}
+
+	.dessert1 p
+	{
+		margin-right: 40px;
+	}
+}
+
+/*-------------------------------mobileL-------------------------------*/
+@media screen and (min-width:375px) and (max-width:425px)
+{
+	#contenu
+	{
+		display: block;
+	}
+
+	.menu
+	{
+		margin: auto;
+		margin-top: 50px;
+		width: 86%;
+		height: 500px;
+	}
+
+	.btn
+	{
+		font-size:18px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 40px;
+		padding-right: 40px;
+		width: 40%;
+		margin-top: 50px;
+		margin-bottom: 100px;
+	}
+
+	.menu p
+	{
+		margin-bottom: 30px;
+		padding-top: 210px;
+	}
+
+	.menu1 p
+	{
+		font-size:25px;
+		padding-top:0;
+	}
+
+	.menu1 i
+	{
+		margin-top: 160px;
+		font-size:40px;
+	}
+
+	.menu2 p
+	{
+		font-size:25px;
+	}
+
+	.menu3 p
+	{
+		font-size: 35px;
+	}
+
+	.menu4 p
+	{
+		font-size:35px;
+	}
+
+	.menu h2
+	{
+		font-size: 30px;
+	}
+
+	.MENU
+	{
+		width: 86%;
+		margin: auto;
+		height: 100%;
+		margin-top: 50px;
+		margin-bottom: 100px;
+	}
+
+	.padding
+	{
+		padding-bottom: 50px;
+	}
+
+	.MENU p
+	{
+		font-size: 18px;
+		margin-left: 40px;
+	}
+
+	.prix
+	{
+		margin-right: 40px;
+	}
+
+	.hr1
+	{
+		display: none;
+	}
+
+	.hr2
+	{
+		width: 60%;
+		margin: auto;
+		float: none;
+	}
+
+	.MENU h2
+	{
+		padding-top: 50px;
+		padding-bottom: 30px;
+		font-size: 30px;
+	}
+
+	.MENU h3
+	{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-size: 22px;
+	}
+
+	img
+	{
+		width: 200px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	footer a
+	{
+		font-size:18px;
+	}
+
+	#footer
+	{
+		height: 60px;
+	}
+
+	.mentions-legales
+	{
+		width: 45%;
+		margin:auto;
+		margin-left:10px;
+	}
+
+	.contact
+	{
+		margin: auto;
+		margin-right: 10px;
+	}
+
+	.MENU1 .hr2
+	{
+		margin: auto;
+	}
+
+	.MENU1 p
+	{
+		margin-left: 40px;
+		font-size: 16px;
+	}
+
+	.MENU1 h2
+	{
+		padding-top: 0;
+		padding-bottom: 0;
+		font-size: 20px;
+	}
+
+	.MENU1 .enchantee
+	{
+		font-size: 16px;
+		padding-bottom: 100px;
+		margin-top: -50px;
+	}
+
+	.MENU1 h3
+	{
+		font-size: 18px;
+	}
+
+	.MENU1 .prelude
+	{
+		margin-top: 30px;
+	}
+
+	.MENU1 .prix
+	{
+		margin-right: 40px;
+	}
+
+	.MENU2 h3
+	{
+		font-size:16px;
+	}
+
+	.MENU2 h2
+	{
+		font-size: 22px;
+	}
+
+	.MENU2 p
+	{
+	font-size: 12px}
+
+	.dessert p
+	{
+		margin-right: 40px;
+	}
+
+	.dessert1 p
+	{
+		margin-right: 40px;
+	}
+}
+
+/*-------------------------------mobileL-------------------------------*/
+/*-------------------------------mobileM-------------------------------*/
+@media screen and (min-width:321px) and (max-width:376px)
+{
+	#contenu
+	{
+		display: block;
+	}
+
+	.menu
+	{
+		margin: auto;
+		margin-top: 50px;
+		width: 84%;
+		height: 400px;
+	}
+
+	.btn
+	{
+		font-size:18px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		width: 45%;
+		padding-left:40px;
+		padding-right:40px;
+		margin-top: 50px;
+		margin-bottom: 100px;
+	}
+
+	.menu p
+	{
+		margin-bottom: 30px;
+		padding-top: 160px;
+	}
+
+	.menu1 p
+	{
+		font-size:20px;
+		padding-top:0;
+	}
+
+	.menu2 p
+	{
+		font-size:20px;
+	}
+
+	.menu3 p
+	{
+		font-size: 30px;
+	}
+
+	.menu4 p
+	{
+		font-size:25px;
+	}
+
+	.menu h2
+	{
+		font-size: 30px;
+	}
+
+	.menu1 i
+	{
+		margin-top: 120px;
+		font-size:30px;
+	}
+
+	.MENU
+	{
+		width: 84%;
+		margin: auto;
+		height: 100%;
+		margin-top: 50px;
+		margin-bottom: 100px;
+	}
+
+	.padding
+	{
+		padding-bottom: 50px;
+	}
+
+	.MENU p
+	{
+		font-size: 16px;
+		margin-left: 40px;
+	}
+
+	.prix
+	{
+		margin-right: 40px;
+	}
+
+	.hr1
+	{
+		display: none;
+	}
+
+	.hr2
+	{
+		width: 60%;
+		margin: auto;
+		float: none;
+	}
+
+	.MENU h2
+	{
+		padding-top: 50px;
+		padding-bottom: 30px;
+		font-size: 25px;
+	}
+
+	.MENU h3
+	{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-size: 18px;
+	}
+
+	img
+	{
+		width: 200px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	footer a
+	{
+		font-size:18px;
+	}
+
+	#footer
+	{
+		height: 60px;
+	}
+
+	.mentions-legales
+	{
+		width: 45%;
+		margin:auto;
+		margin-left:10px;
+	}
+
+	.contact
+	{
+		margin: auto;
+		margin-right: 10px;
+	}
+
+	.MENU1 .hr2
+	{
+	margin: auto}
+
+	.MENU1 p
+	{
+		margin-left: 40px;
+		font-size: 16px;
+	}
+
+	.MENU1 h2
+	{
+		padding-top: 0;
+		padding-bottom: 0;
+		font-size:18px;
+	}
+
+	.MENU1 .enchantee
+	{
+		font-size: 16px;
+		padding-bottom: 100px;
+		padding-top: 50px;
+	}
+
+	.MENU1 h3
+	{
+		font-size: 18px;
+	}
+
+	.MENU1 .prelude
+	{
+		margin-top: 30px;
+	}
+
+	.MENU1 .prix
+	{
+		margin-right: 40px;
+	}
+
+	.MENU1 i
+	{
+		margin-top: 30px;
+		font-size: 30px;
+	}
+
+	.MENU1 .musique
+	{
+		font-size: 20px;
+	}
+
+	.MENU2 h2
+	{
+		font-size:20px;
+	}
+
+	.MENU2 h3
+	{
+		font-size: 14px;
+	}
+
+	.MENU2 p
+	{
+		font-size:12px;
+	}
+
+	.dessert p
+	{
+		margin-right: 40px;
+	}
+
+	.dessert1 p
+	{
+		margin-right: 40px;
+	}
+}
+
+/*-------------------------------mobileM-------------------------------*/
+/*-------------------------------mobileS-------------------------------*/
+@media screen  and (max-width:321px)
+{
+	#contenu
+	{
+		display: block;
+	}
+
+	.menu
+	{
+		margin: auto;
+		margin-top: 50px;
+		width:  81%;
+		height: 400px;
+	}
+
+	.btn
+	{
+		font-size:18px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 40px;
+		padding-right: 40px;
+		width: 45%;
+		margin-top: 50px;
+		margin-bottom: 100px;
+	}
+
+	.menu p
+	{
+		margin-bottom: 30px;
+		padding-top: 160px;
+	}
+
+	.menu1 p
+	{
+		font-size:20px;
+		padding-top:0;
+	}
+
+	.menu2 p
+	{
+		font-size:20px;
+	}
+
+	.menu3 p
+	{
+		font-size: 30px;
+	}
+
+	.menu4 p
+	{
+		font-size:25px;
+	}
+
+	.menu h2
+	{
+		font-size: 30px;
+	}
+
+	.menu1 i
+	{
+		margin-top: 120px;
+		font-size:30px;
+	}
+
+	.MENU
+	{
+		width: 82%;
+		margin: auto;
+		height: 100%;
+		margin-top: 50px;
+		margin-bottom: 100px;
+	}
+
+	.padding
+	{
+		padding-bottom: 50px;
+	}
+
+	.MENU p
+	{
+		font-size: 16px;
+		margin-left: 40px;
+	}
+
+	.prix
+	{
+		margin-right: 40px;
+	}
+
+	.hr1
+	{
+		display: none;
+	}
+
+	.hr2
+	{
+		width: 60%;
+		margin: auto;
+		float: none;
+	}
+
+	.MENU h2
+	{
+		padding-top: 50px;
+		padding-bottom: 30px;
+		font-size: 20px;
+	}
+
+	.MENU h3
+	{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-size: 18px;
+	}
+
+	img
+	{
+		width: 200px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	footer a
+	{
+		font-size:16px;
+	}
+
+	#footer
+	{
+		height: 60px;
+	}
+
+	.mentions-legales
+	{
+		width: 45%;
+		margin:auto;
+		margin-left:10px;
+	}
+
+	.contact
+	{
+		margin: auto;
+		margin-right: 10px;
+	}
+
+	.MENU1 .hr2
+	{
+	margin: auto}
+
+	.MENU1 p
+	{
+		margin-left: 40px;
+		font-size: 14px;
+	}
+
+	.MENU1 h2
+	{
+		padding-top: 0;
+		padding-bottom: 0;
+		font-size: 18px;
+	}
+
+	.MENU1 h3
+	{
+		font-size: 16px;
+	}
+
+	.MENU1 .enchantee
+	{
+		font-size: 14px;
+		margin-top: -50px;
+		padding-bottom: 100px;
+	}
+
+	.MENU1 .prelude
+	{
+		margin-top: 30px;
+	}
+
+	.MENU1 .prix
+	{
+		margin-right: 40px;
+	}
+
+	.MENU2 h2
+	{
+	font-size: 16px}
+
+	.MENU2 h3
+	{
+		font-size:12px;
+	}
+
+	.MENU2 p
+	{
+		font-size: 10px;
+	}
+
+	.dessert p
+	{
+		margin-right: 40px;
+	}
+
+	.dessert1 p
+	{
+		margin-right: 40px;
+	}
+}
+
+/*-------------------------------mobileS-------------------------------*/
+/*-------------------------------media queries-------------------------------*/
